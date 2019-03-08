@@ -1,8 +1,8 @@
 #ifndef _DES_H_
 #define _DES_H_
 
-#define ENCRYPTION_MODE 1
-#define DECRYPTION_MODE 0
+#define ENCRYPTION_MODE 1  //加密
+#define DECRYPTION_MODE 0  //解密
 
 typedef struct {
 	unsigned char k[8];
